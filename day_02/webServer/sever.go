@@ -12,6 +12,7 @@ func main() {
 	if err := Init(); err != nil {
 		os.Exit(-1)
 	}
+	
 	r := gin.Default()
 
 	r.Use(gin.Logger())
